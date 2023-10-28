@@ -21,7 +21,7 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
     HttpClientModule,
     ReactiveFormsModule,
   ],
-  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
